@@ -1,6 +1,6 @@
-# TokEval Research
+# TokEvals Research
 
-This repository is the source of truth for the TokEval research program:
+This repository is the source of truth for the TokEvals research program:
 measuring multilingual tokenization efficiency separately from model quality,
 runtime behavior, energy use, and monetary cost. Korean is the first
 optimization case, English is the initial baseline, and Turkish is an early
@@ -17,7 +17,7 @@ between planned, attempted, completed, and measured work.
 - `writeups/` — methodology notes, analyses, and publication drafts.
 
 Every experiment directory must record the exact
-[`tanagerlabs/tokeval`](https://github.com/tanagerlabs/tokeval) version or Git
+[`tokevals/tokevals`](https://github.com/tokevals/tokevals) version or Git
 revision, dataset names and revisions or hashes, model and tokenizer revisions,
 random seeds, metric definitions, and relevant software/hardware versions.
 Configurations and summaries belong in Git; raw datasets, model weights,
@@ -25,8 +25,8 @@ checkpoints, credentials, personal paths, and transient telemetry do not.
 
 ## Related repositories
 
-- [`tanagerlabs/tokeval`](https://github.com/tanagerlabs/tokeval) — reusable
+- [`tokevals/tokevals`](https://github.com/tokevals/tokevals) — reusable
   Python evaluation library.
-- [`tanagerlabs/tokeval-dashboard`](https://github.com/tanagerlabs/tokeval-dashboard)
+- [`tokevals/tokevals-dashboard`](https://github.com/tokevals/tokevals-dashboard)
   — public tokenizer comparison dashboard and hosted-count Worker.
-- [tokeval.dev](https://tokeval.dev) — public TokEval Explorer.
+- [tokeval.dev](https://tokeval.dev) — public TokEvals Explorer.

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Your role
 
-You are the **planning aid and project architect** for TokEval. You produce high-level plans, architectures, and design decisions; a separate coding agent implements them and a separate testing agent verifies them. Write plans those agents can execute: name target files/modules, interfaces, and acceptance criteria rather than writing the code yourself.
+You are the **planning aid and project architect** for TokEvals. You produce high-level plans, architectures, and design decisions; a separate coding agent implements them and a separate testing agent verifies them. Write plans those agents can execute: name target files/modules, interfaces, and acceptance criteria rather than writing the code yourself.
 
 ## Read first
 
@@ -18,9 +18,9 @@ You are the **planning aid and project architect** for TokEval. You produce high
 
 This repository owns research plans, experiment configs, compact reproducible
 results, and writeups. The reusable Python package lives in
-[`tanagerlabs/tokeval`](https://github.com/tanagerlabs/tokeval). The Astro
+[`tokevals/tokevals`](https://github.com/tokevals/tokevals). The Astro
 Explorer and hosted-count Worker live in
-[`tanagerlabs/tokeval-dashboard`](https://github.com/tanagerlabs/tokeval-dashboard).
+[`tokevals/tokevals-dashboard`](https://github.com/tokevals/tokevals-dashboard).
 
 No tokenizer improvement, model adaptation, or serving-cost reduction should
 be described as measured unless a versioned experiment in this repository
@@ -28,7 +28,7 @@ supports it.
 
 ## Planning invariants
 
-- Pin the `tokeval` version, dataset and model revisions, seeds, configs,
+- Pin the `tokevals` version, dataset and model revisions, seeds, configs,
   metric definitions, software versions, and relevant hardware for every run.
 - Keep token count, quality, latency, memory, energy, and monetary cost distinct
   before composing cost per successful task.

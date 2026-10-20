@@ -4,7 +4,7 @@
 
 - Read `PROJECT_CONTEXT.md` before research, architecture, or terminology
   decisions. It is the cross-repository source of truth.
-- TokEval measures multilingual tokenization efficiency and its effects on
+- TokEvals measures multilingual tokenization efficiency and its effects on
   model quality and serving cost. Korean is the first optimization case;
   English is the initial baseline and Turkish an early contrast language.
 - Label work as planned, attempted, completed, or measured. Do not report an
@@ -18,7 +18,7 @@
 - Use controlled comparisons, explicit metrics, fixed seeds, and versioned
   configs. Record dataset/model/tokenizer revisions or hashes and relevant
   hardware/software versions.
-- Every experiment pins the `tanagerlabs/tokeval` library version or Git
+- Every experiment pins the `tokevals/tokevals` library version or Git
   revision it uses.
 - Preserve raw bytes and byte spans in tokenizer results. Test Unicode round
   trips, normalization, unusual spacing, emoji, mixed scripts, and boundaries
