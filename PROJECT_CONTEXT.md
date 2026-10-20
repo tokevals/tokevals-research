@@ -4,7 +4,7 @@
 > TokEvals program. The reusable Python library lives in
 > [`tokevals/tokevals`](https://github.com/tokevals/tokevals), the public
 > Explorer and hosted-count Worker live in
-> [`tokevals/tokevals-dashboard`](https://github.com/tokevals/tokevals-dashboard),
+> [`tokevals/tokevals-explorer`](https://github.com/tokevals/tokevals-explorer),
 > and experiment configs, results, and writeups live in this repository.
 >
 > **Purpose:** A living reference for contributors, coding agents, and future conversations. This document captures project goals and decisions discussed so far, and distinguishes plans from verified results.
@@ -171,7 +171,7 @@ tokevals/
 │   ├── datasets/              # Corpus loaders + aligned text
 │   ├── experiments/           # Tokenizer training/model adaptation
 │   └── serving/               # Inference load and cost studies
-├── tokevals-dashboard/         # Separate Astro + React repository
+├── tokevals-explorer/         # Separate Astro + React repository
 ├── configs/languages/
 │   ├── en.yaml
 │   ├── ko.yaml
@@ -182,7 +182,7 @@ tokevals/
 ```
 
 **Dashboard implementation:** The separate
-[`tokevals-dashboard`](https://github.com/tokevals/tokevals-dashboard)
+[`tokevals-explorer`](https://github.com/tokevals/tokevals-explorer)
 repository uses Astro with focused React islands and a Cloudflare Worker for
 hosted provider counts. Keep tokenizer adapters behind a shared interface.
 Define response fields such as `tokenizer_id`, `input_text`, `token_count`,

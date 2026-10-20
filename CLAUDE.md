@@ -20,7 +20,7 @@ This repository owns research plans, experiment configs, compact reproducible
 results, and writeups. The reusable Python package lives in
 [`tokevals/tokevals`](https://github.com/tokevals/tokevals). The Astro
 Explorer and hosted-count Worker live in
-[`tokevals/tokevals-dashboard`](https://github.com/tokevals/tokevals-dashboard).
+[`tokevals/tokevals-explorer`](https://github.com/tokevals/tokevals-explorer).
 
 No tokenizer improvement, model adaptation, or serving-cost reduction should
 be described as measured unless a versioned experiment in this repository
