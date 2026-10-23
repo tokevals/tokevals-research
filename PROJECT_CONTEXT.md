@@ -3,7 +3,7 @@
 > **Repository map:** This file is the cross-repository source of truth for the
 > TokEvals program. The reusable Python library lives in
 > [`tokevals/tokevals`](https://github.com/tokevals/tokevals), the public
-> Explorer is hosted at [tokeval.dev](https://tokeval.dev) with a private
+> Explorer is hosted at [tokevals.dev](https://tokevals.dev) with a private
 > implementation, the public model catalog lives in
 > [`tokevals/tokevals-lib`](https://github.com/tokevals/tokevals-lib), and
 > experiment configs, results, and writeups live in this repository.
