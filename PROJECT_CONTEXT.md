@@ -3,9 +3,10 @@
 > **Repository map:** This file is the cross-repository source of truth for the
 > TokEvals program. The reusable Python library lives in
 > [`tokevals/tokevals`](https://github.com/tokevals/tokevals), the public
-> Explorer and hosted-count Worker live in
-> [`tokevals/tokevals-explorer`](https://github.com/tokevals/tokevals-explorer),
-> and experiment configs, results, and writeups live in this repository.
+> Explorer is hosted at [tokeval.dev](https://tokeval.dev) with a private
+> implementation, the public model catalog lives in
+> [`tokevals/tokevals-lib`](https://github.com/tokevals/tokevals-lib), and
+> experiment configs, results, and writeups live in this repository.
 >
 > **Purpose:** A living reference for contributors, coding agents, and future conversations. This document captures project goals and decisions discussed so far, and distinguishes plans from verified results.
 
@@ -181,9 +182,8 @@ tokevals/
 └── docs/                      # Research notes and blog drafts
 ```
 
-**Dashboard implementation:** The separate
-[`tokevals-explorer`](https://github.com/tokevals/tokevals-explorer)
-repository uses Astro with focused React islands and a Cloudflare Worker for
+**Dashboard implementation:** The private Explorer repository uses Astro with
+focused React islands and a Cloudflare Worker for
 hosted provider counts. Keep tokenizer adapters behind a shared interface.
 Define response fields such as `tokenizer_id`, `input_text`, `token_count`,
 `token_ids` (optional), `byte_spans` (optional), `count_source`,

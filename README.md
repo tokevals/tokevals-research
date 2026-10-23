@@ -27,6 +27,7 @@ checkpoints, credentials, personal paths, and transient telemetry do not.
 
 - [`tokevals/tokevals`](https://github.com/tokevals/tokevals) — reusable
   Python evaluation library.
-- [`tokevals/tokevals-explorer`](https://github.com/tokevals/tokevals-explorer)
-  — public tokenizer comparison dashboard and hosted-count Worker.
-- [tokeval.dev](https://tokeval.dev) — public TokEvals Explorer.
+- [`tokevals/tokevals-lib`](https://github.com/tokevals/tokevals-lib) — public
+  model catalog and validation tools.
+- [tokeval.dev](https://tokeval.dev) — hosted TokEvals Explorer; its
+  implementation is private.

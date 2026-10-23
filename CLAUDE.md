@@ -19,8 +19,9 @@ You are the **planning aid and project architect** for TokEvals. You produce hig
 This repository owns research plans, experiment configs, compact reproducible
 results, and writeups. The reusable Python package lives in
 [`tokevals/tokevals`](https://github.com/tokevals/tokevals). The Astro
-Explorer and hosted-count Worker live in
-[`tokevals/tokevals-explorer`](https://github.com/tokevals/tokevals-explorer).
+Explorer and hosted-count Worker have a private implementation and are
+available at [tokeval.dev](https://tokeval.dev). The public model catalog
+lives in [`tokevals-lib`](https://github.com/tokevals/tokevals-lib).
 
 No tokenizer improvement, model adaptation, or serving-cost reduction should
 be described as measured unless a versioned experiment in this repository
